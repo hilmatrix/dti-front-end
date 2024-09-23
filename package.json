@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "run": "node dist/index.js",
+    "start" : "tsc && node dist/index.js",
     "dev": "tsnd --respawn index.ts"
   },
   "keywords": [],
